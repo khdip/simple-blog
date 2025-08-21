@@ -11,6 +11,12 @@ To run the DB migration:
 cd todo
 go run migrations/migrate.go up
 ```
-To run the server: *go run todo/main.go*  
-To run the client: *go run cms/main.go*  
+To run the server: 
+```
+go run todo/main.go
+```  
+To run the client: 
+```
+go run cms/main.go
+```
 To view the web app in the browser go to: localhost:8080 (or the port number you specified in the config file).  
